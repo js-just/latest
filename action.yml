@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-name: '_just@latest'
+name: '_just@v0.0.30'
 description: 'Just an Ultimate Site Tool: Use latest version'
 author: 'JustStudio.'
 branding:
@@ -34,6 +34,6 @@ runs:
   using: 'composite'
   steps:
     - name: Run _just
-      uses: js-just/_just@v0.0.29
+      uses: js-just/_just@v0.0.30
       with:
         path: ${{ inputs.path }}
