@@ -34,6 +34,6 @@ runs:
   using: 'composite'
   steps:
     - name: Run _just
-      uses: js-just/_just@v0.0.30
+      uses: js-just/_just@v0.0.31
       with:
         path: ${{ inputs.path }}
