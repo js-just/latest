@@ -37,7 +37,7 @@ runs:
   using: 'composite'
   steps:
     - name: Run _just
-      uses: js-just/_just@v0.0.31
+      uses: js-just/_just@v0.0.32
       with:
         path: ${{ inputs.path }}
         fix-path: ${{ inputs.fix-path }}
